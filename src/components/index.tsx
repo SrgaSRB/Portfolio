@@ -84,7 +84,6 @@ const Index: React.FC = () => {
                                         alt="Download Icon"
                                     />
                                 </a>
-
                             </div>
                             <div className="main-text-and-languages-div" data-aos="fade-left">
                                 <div className="main-text-div">
