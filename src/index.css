@@ -2134,7 +2134,6 @@ textarea.w-input, textarea.w-select {
   font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.4;
-  overflow: hidden;
 }
 
 .main-text-block-div {
@@ -2283,7 +2282,7 @@ textarea.w-input, textarea.w-select {
   -webkit-background-clip: text;
   background-clip: text;
   margin-top: 0;
-  margin-bottom: 64px;
+  margin-bottom: 48px;
   font-size: 6rem;
   line-height: 1.4;
 }
@@ -2610,7 +2609,10 @@ textarea.w-input, textarea.w-select {
 .contact-section {
   z-index: 500;
   background-color: #1a1e23;
-  height: 110vh;
+  height: auto;
+  min-height: 110vh;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .contact-block-div {
@@ -3281,7 +3283,11 @@ textarea.w-input, textarea.w-select {
   }
 
   .contact-section {
-    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 0;
+    display: flex;
     position: static;
   }
 
@@ -3294,6 +3300,7 @@ textarea.w-input, textarea.w-select {
   }
 
   .submit-button {
+    margin-bottom: 48px;
     font-size: 1rem;
   }
 
